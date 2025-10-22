@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buty</title>
+     <style>
+         body{
+            background-color: rgba(128, 128, 128, 0.932);
+            color: rgb(255, 255, 255);
+        }
+             form{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1 style="text-align: center;">Obuwie męskie</h1>
+        <label for="1" style="margin-right: 7px;">Model: </label>
+        <select id="1" name="Model" style="width: 170px;">
+            <option value="0-23-45" selected>0-23-45</option>
+            <option value="cos" disabled>cos</option>
+        </select>
+        <label for="2" style="margin-right: 7px;">Rozmiar: </label>
+        <select id="2" name="Rozmiar" style="width: 170px;">
+            <option value="40" selected>40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+        </select>
+        <label for="3" style="margin-right: 7px;">Liczba par: </label>
+        <input type="number" id="3" name="liczba_par" min="1" style="margin-right: 15px; width: 170px;">
+        <input type="submit" value="Zamów" style="width: 170px;">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raty</title>
+    <style>
+         body{
+            background-color: rgba(128, 128, 128, 0.932);
+            color: rgb(255, 255, 255);
+        }
+         form{
+            font-weight: bolder;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Oblicz miesięczną ratę</h2>
+    <form>
+        <label for="1" >
+        <input type="checkbox" id="1" name="kurs" value="Kurs React.js" checked style="margin-right:10px ;">Kurs React.js
+        </label>
+        <br>
+        <label for="2" style="margin-top: 5px;">
+        <input type="checkbox" id="2" name="kurs" value="Kurs JavaScript" checked style="margin-right:10px ;">Kurs JavaScript
+        </label>
+        <br>
+        <label for="3" style="margin-top: 5px; margin-right:7px ;">Liczba rat:</label>
+        <input type="number" name="raty" id="3" value="10" style="margin-top: 5px;">
+        <br>
+        <select name="miasto" style="margin-top: 5px;">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Katowice" selected>Katowice</option>
+            <option value="Gdansk">Gdańsk</option>
+        </select>
+        <br>
+        <input type="submit" value="oblicz" style="margin-top: 5px;">
+    </form>
+    
+</body>
+</html>

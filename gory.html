@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gory</title>
+     <style>
+         body{
+            background-color: rgba(128, 128, 128, 0.932);
+            color: rgb(255, 255, 255);
+        }
+        form{
+            font-weight: bolder;
+            font-size: x-large;
+            margin-left: 240px;
+        }
+    </style>
+</head>
+<body>
+    <p style="text-align: center; font-weight: bolder; font-size: x-large;">Wpisz swoje dane do formularza:</p>
+    <form>
+        
+        <label for="1">Nazwisko:</label>
+        <input type="text" id="1" name="Nazwisko">
+        <label for="2">Imię:</label>
+        <input type="text" id="2" name="Imie">
+        <label for="3">Funkcja:</label>
+        <select id="3" name="Funkcja">
+            <option value="uczestnik" selected>uczestnik</option>
+            <option value="przewodnik">przewodnik</option>
+            <option value="zaopatrzeniowiec">zaopatrzeniowiec</option>
+            <option value="organizator">organizator</option>
+            <option value="ratownik">ratownik</option>
+        </select>
+        <label for="4">Email:</label>
+        <input type="email" id="4" name="Email">
+        <input type="submit" value="dodaj">
+    </form>
+    
+</body>
+</html>
